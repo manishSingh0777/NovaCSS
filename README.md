@@ -66,6 +66,13 @@ Example:
 <p class="fw-bold">Bold text</p>
 <div class="border border-primary p-2">Box with primary border</div>
 ```
+### Features
+
+- Modular Sass architecture
+- Theme customization via variables & maps
+- Prebuilt components
+- Utility-first helpers
+- Clean default HTML styling
 
 ### Forms
 
