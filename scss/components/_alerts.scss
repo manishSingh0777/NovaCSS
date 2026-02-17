@@ -1,0 +1,31 @@
+.alert {
+  padding: 1rem 1.25rem;
+  border-radius: $radius;
+  margin: 1rem 0;
+  border: 1px solid transparent;
+  font-size: 0.95rem;
+}
+
+.alert-primary {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: map-get($colors, primary);
+  border-color: rgba(37, 99, 235, 0.25);
+}
+
+.alert-secondary {
+  background-color: rgba(249, 115, 22, 0.1);
+  color: map-get($colors, secondary);
+  border-color: rgba(249, 115, 22, 0.25);
+}
+
+.alert-success {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #065f46;
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+.alert-danger {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #7f1d1d;
+  border-color: rgba(239, 68, 68, 0.25);
+}

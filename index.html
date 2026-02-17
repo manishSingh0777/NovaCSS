@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NovaCSS Framework Demo</title>
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="container">
+      <div class="navbar-brand">NovaCSS</div>
+      <div class="navbar-menu">
+        <a href="#utilities">Utilities</a>
+        <a href="#components">Components</a>
+        <a href="#forms">Forms</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- INTRO -->
+    <section class="m-4">
+      <h1>NovaCSS Framework Demo</h1>
+      <p>
+        This page demonstrates the core utilities and components provided by
+        the NovaCSS custom CSS framework.
+      </p>
+    </section>
+
+    <!-- BUTTONS -->
+    <section id="components" class="m-4">
+      <h2>Buttons</h2>
+      <button class="btn btn-primary m-1">Primary</button>
+      <button class="btn btn-secondary m-1">Secondary</button>
+      <button class="btn btn-outline m-1">Outline</button>
+    </section>
+
+    <!-- CARDS -->
+    <section class="m-4">
+      <h2>Cards</h2>
+      <div class="card" style="max-width: 320px;">
+        <h3 class="card-title">Nova Card</h3>
+        <p class="card-text">
+          Cards are reusable layout components used to group related content.
+        </p>
+        <button class="btn btn-primary">Action</button>
+      </div>
+    </section>
+
+    <!-- GRID SYSTEM -->
+    <section class="m-4">
+      <h2>Grid System</h2>
+      <div class="row">
+        <div class="col col-4">
+          <div class="card text-center">Column 1</div>
+        </div>
+        <div class="col col-4">
+          <div class="card text-center">Column 2</div>
+        </div>
+        <div class="col col-4">
+          <div class="card text-center">Column 3</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UTILITY CLASSES -->
+    <section id="utilities" class="m-4">
+      <h2>Utility Classes</h2>
+
+      <h3>Spacing</h3>
+      <div class="bg-light p-3 m-2 border">.p-3 .m-2</div>
+
+      <h3>Colors</h3>
+      <div class="p-3 bg-primary text-center">Primary Background</div>
+      <div class="p-3 bg-secondary text-center">Secondary Background</div>
+
+      <h3>Typography</h3>
+      <p class="fw-bold">Bold text utility</p>
+      <p class="fw-light">Light text utility</p>
+      <p class="text-center">Centered text utility</p>
+
+      <h3>Borders</h3>
+      <div class="border p-3 m-2">.border</div>
+      <div class="border-2 border-primary p-3 m-2">.border-2 .border-primary</div>
+      <div class="border border-secondary rounded p-3 m-2">.rounded</div>
+      <div class="border border-primary rounded-lg p-3 m-2">.rounded-lg</div>
+    </section>
+
+    <!-- FORMS -->
+    <section id="forms" class="m-4">
+      <h2>Forms</h2>
+
+      <div class="form-group">
+        <label class="label">Email</label>
+        <input class="input" type="email" placeholder="Enter your email">
+      </div>
+
+      <div class="form-group">
+        <label class="label">Message</label>
+        <textarea class="textarea" rows="4" placeholder="Your message"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="label">Role</label>
+        <select class="select">
+          <option>Select role</option>
+          <option>Designer</option>
+          <option>Developer</option>
+        </select>
+      </div>
+
+      <button class="btn btn-primary">Submit</button>
+    </section>
+
+    <!-- TABLES -->
+    <section class="m-4">
+      <h2>Tables</h2>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alex</td>
+            <td>Designer</td>
+            <td>Active</td>
+          </tr>
+          <tr>
+            <td>Sam</td>
+            <td>Developer</td>
+            <td>Inactive</td>
+          </tr>
+          <tr>
+            <td>Jordan</td>
+            <td>Manager</td>
+            <td>Active</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ALERTS -->
+    <section class="m-4">
+      <h2>Alerts</h2>
+      <div class="alert alert-primary">Primary alert</div>
+      <div class="alert alert-secondary">Secondary alert</div>
+      <div class="alert alert-success">Success alert</div>
+      <div class="alert alert-danger">Danger alert</div>
+    </section>
+
+    <!-- BADGES -->
+    <section class="m-4">
+      <h2>Badges</h2>
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-secondary">Secondary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-danger">Danger</span>
+    </section>
+
+  </div>
+
+</body>
+</html>

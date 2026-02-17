@@ -1,0 +1,28 @@
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid map-get($colors, gray-200);
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-weight: map-get($font-weights, bold);
+  font-size: 1.25rem;
+  color: map-get($colors, primary);
+}
+
+.navbar-menu a {
+  margin-left: 1rem;
+  color: map-get($colors, gray-600);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-menu a:hover {
+  color: map-get($colors, primary);
+}

@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  border: 1px solid map-get($colors, gray-200);
+  border-radius: $radius;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid map-get($colors, gray-200);
+}
+
+.table th {
+  background-color: map-get($colors, gray-100);
+  font-weight: map-get($font-weights, bold);
+  color: map-get($colors, gray-900);
+  background-color: map-get($colors, gray-200);
+
+}
+
+.table tr:hover td {
+  background-color: map-get($colors, gray-100);
+}
+

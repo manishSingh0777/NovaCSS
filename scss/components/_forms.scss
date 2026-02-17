@@ -1,0 +1,29 @@
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: map-get($font-weights, bold);
+  color: map-get($colors, gray-900);
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid map-get($colors, gray-300);
+  border-radius: $radius;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: map-get($colors, primary);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}

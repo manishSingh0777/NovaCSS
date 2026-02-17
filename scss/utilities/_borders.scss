@@ -1,0 +1,11 @@
+// Borders
+.border { border: 1px solid #ccc; }
+.border-2 { border: 2px solid #ccc; }
+.border-0 { border: none; }
+
+.rounded { border-radius: 0.25rem; }
+.rounded-md { border-radius: 0.5rem; }
+.rounded-lg { border-radius: 1rem; }
+
+.border-primary { border-color: map-get($colors, primary); }
+.border-secondary { border-color: map-get($colors, secondary); }

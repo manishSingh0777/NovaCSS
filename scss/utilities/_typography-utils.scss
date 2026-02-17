@@ -1,0 +1,27 @@
+/* Typography Utilities */
+
+/* Font weight */
+.fw-light {
+  font-weight: map-get($font-weights, light);
+}
+
+.fw-regular {
+  font-weight: map-get($font-weights, regular);
+}
+
+.fw-bold {
+  font-weight: map-get($font-weights, bold);
+}
+
+/* Text alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}

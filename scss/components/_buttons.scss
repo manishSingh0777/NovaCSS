@@ -1,0 +1,31 @@
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background: map-get($colors, primary);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: map-get($colors, secondary);
+  color: #fff;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid map-get($colors, primary);
+  color: map-get($colors, primary);
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
